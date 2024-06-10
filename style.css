@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap&family=Dosis:wght@200..800&display=swap&family=Comfortaa:wght@300..700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family:"Montserrat";
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border: 2px solid #fff;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#nav-part2 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+#nav h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#main h1 {
+    font-size: 180px;
+    font-weight: 500;
+    line-height: 150px;
+    /* background-color: crimson; */
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1000px) {
+    #main h1 {
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 110px;
+        /* background-color: crimson; */
+        width: 80%;
+        margin-left: 10%;
+        text-transform: uppercase;
+    }
+}
+
+#main h1:nth-child(2) {
+    margin-top: 190px;
+    /* background-color: #0D9276; */
+    border-radius: 10px;
+    
+}
+
+#main h1:nth-child(3) {
+    text-align: center;
+    margin-left: 450px;
+    /* background-color: crimson; */
+    border-radius: 10px;
+}
+
+#main h1:nth-child(4) {
+    text-align: center;
+    margin-left: 260px;
+    /* background-color: dodgerblue; */
+    border-radius: 10px;
+}
+
+img {
+    height: 550px;
+    width:500px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border-radius: 10px;
+}
+
+#img2 {
+    rotate: 30deg;
+}
+
+
+#img3 {
+    rotate: 10deg;
+}
+
